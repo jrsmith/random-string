@@ -1,0 +1,16 @@
+'context-menu':
+  '.overlayer':
+    'Random String': 'random-string:insert'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Random String'
+      'submenu': [
+        'label': 'Generate',
+        'command': 'random-string:insert'
+      ]
+    ]
+  }
+]

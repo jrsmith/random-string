@@ -1,0 +1,14 @@
+{
+  "name": "random-string",
+  "main": "./lib/random-string",
+  "version": "0.0.1",
+  "description": "Random string generator for Atom",
+  "activationEvents": ["random-string:insert"],
+  "repository": "https://github.com/jrsmith/random-string",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
